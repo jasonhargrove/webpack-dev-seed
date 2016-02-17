@@ -31,7 +31,10 @@ const common = {
       {
         test: /\.scss?$/,
         loader: ExtractTextPlugin.extract('style-loader', 'css!sass')
-        // loaders: ['style', 'css', 'sass']
+      },
+      {
+        test: /\.html$/,
+        loader: 'raw-loader'
       }
     ]
   }
@@ -61,7 +64,10 @@ if(TARGET === 'start' || !TARGET) {
       new NpmInstallPlugin({
         saveDev: true
       }),
-      new ExtractTextPlugin('bundle.css')
+      new ExtractTextPlugin('bundle.css'),
+      new webpack.DefinePlugin({
+        'process.env.NODE_ENV': '"development"'
+      })
     ]
   });
 }
