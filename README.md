@@ -1,6 +1,6 @@
 # webpack-dev-seed
 
-A simple development environment using webpack, with support for ES2015 and SASS.
+A simple development environment using webpack and the webpack dev server, with support for ES2015 and SASS.
 
 ## Usage
 
