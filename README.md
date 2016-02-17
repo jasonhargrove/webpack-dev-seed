@@ -24,7 +24,6 @@ $ git push --mirror https://github.com/exampleuser/new-repository.git
 $ cd ..
 
 $ rm -rf weback-dev-seed.git
-
 ```
 Now clone the new repository:
 
@@ -32,7 +31,6 @@ Now clone the new repository:
 $ git clone https://github.com/exampleuser/new-repository.git
 
 $ cd new-repository
-
 ```
 
 Install the modules:
