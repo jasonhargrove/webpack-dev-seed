@@ -1,21 +1,21 @@
 {
-  "name": "batting-practice",
+  "name": "webpack-dev-seed",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple development environment using webpack and the webpack dev server, with support for ES2015 and SASS.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jasonhargrove/batting-practice.git"
+    "url": "git+https://github.com/jasonhargrove/webpack-dev-seed.git"
   },
-  "author": "",
+  "author": "Jason Hargrove",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jasonhargrove/batting-practice/issues"
+    "url": "https://github.com/jasonhargrove/webpack-dev-seed/issues"
   },
-  "homepage": "https://github.com/jasonhargrove/batting-practice#readme",
+  "homepage": "https://github.com/jasonhargrove/webpack-dev-seed#readme",
   "devDependencies": {
     "babel-core": "^6.5.2",
     "babel-loader": "^6.2.2",
